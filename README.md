@@ -39,6 +39,7 @@ Sign up / log in
 Create a new Project
 Retrieve:
 LAKERA_API_KEY
+
 LAKERA_PROJECT_ID
 
 Why this matters:
@@ -52,7 +53,9 @@ enforce security policies
 
 
 LAKERA_API_KEY=your_lakera_api_key
+
 LAKERA_PROJECT_ID=your_project_id
+
 GEMINI_API_KEY=your_gemini_api_key
 
 
