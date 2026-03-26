@@ -20,9 +20,9 @@ _pip install uv_
 
 **2. Clone the Project**
 
-__git clone https://github.com/trieub/lakera-demo.git_
+_git clone https://github.com/trieub/lakera-demo.git_
 
-_cd lakera-demo__
+_cd lakera-demo_
 
 **3. Create Virtual Environment (uv)**
 
