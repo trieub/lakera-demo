@@ -1,5 +1,6 @@
 **Setup & Run Guide for lakera-demo (uv + Streamlit)**
 
+
 **1. Prerequisites**
 
 Ensure the following are installed:
@@ -18,11 +19,13 @@ or:
 
 _pip install uv_
 
+
 **2. Clone the Project**
 
 _git clone https://github.com/trieub/lakera-demo.git_
 
 _cd lakera-demo_
+
 
 **3. Create Virtual Environment (uv)**
 
@@ -38,9 +41,11 @@ Windows:
 
 _.venv\Scripts\activate_
 
+
 **4. Install Dependencies**
 
 _uv pip install -r pyproject.toml_
+
 
 **5. Create Lakera Account & Get Credentials**
 
@@ -65,6 +70,7 @@ Lakera uses a project-based model to:
 - track requests
 
 - enforce security policies
+  
 
 **6. Run the Streamlit App**
 
@@ -78,6 +84,7 @@ Open in browser:
 
 _http://localhost:8501_
 
+
 **7. Configure Environment Variables**
 
 
@@ -86,6 +93,7 @@ _LAKERA_API_KEY=your_lakera_api_key_
 _LAKERA_PROJECT_ID=your_project_id_
 
 _GEMINI_API_KEY=your_gemini_api_key_
+
 
 **8. Application Flow (for validation/demo)**
 
@@ -104,6 +112,7 @@ Detects:
 If safe → forwarded to LLM
 
 Response returned to UI
+
 
 **9. Quick Security Testing**
 
