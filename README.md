@@ -12,34 +12,35 @@ uv
 
 Install uv
 
-curl -Ls https://astral.sh/uv/install.sh | sh
+_curl -Ls https://astral.sh/uv/install.sh | sh_
 
 or:
 
-pip install uv
+_pip install uv_
 
 **2. Clone the Project**
 
-git clone https://github.com/trieub/lakera-demo.git
+_git clone https://github.com/trieub/lakera-demo.git
 
-cd lakera-demo
+cd lakera-demo_
 
 **3. Create Virtual Environment (uv)**
-uv venv
+
+_uv venv_
 
 Activate it:
 
 macOS / Linux:
 
-source .venv/bin/activate
+_source .venv/bin/activate_
 
 Windows:
 
-.venv\Scripts\activate
+_.venv\Scripts\activate_
 
 **4. Install Dependencies**
 
-uv pip install -r pyproject.toml
+_uv pip install -r pyproject.toml_
 
 **5. Create Lakera Account & Get Credentials**
 
@@ -77,15 +78,15 @@ GEMINI_API_KEY=your_gemini_api_key
 
 **7. Run the Streamlit App**
 
-streamlit run app.py
+_streamlit run app.py_
 
 Or with uv:
 
-uv run streamlit run app.py
+_uv run streamlit run app.py_
 
 Open in browser:
 
-http://localhost:8501
+_http://localhost:8501_
 
 **8. Application Flow (for validation/demo)**
 
