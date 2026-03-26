@@ -66,17 +66,7 @@ track requests
 
 enforce security policies
 
-**6. Configure Environment Variables**
-
-
-LAKERA_API_KEY=your_lakera_api_key
-
-LAKERA_PROJECT_ID=your_project_id
-
-GEMINI_API_KEY=your_gemini_api_key
-
-
-**7. Run the Streamlit App**
+**6. Run the Streamlit App**
 
 _streamlit run app.py_
 
@@ -87,6 +77,15 @@ _uv run streamlit run app.py_
 Open in browser:
 
 _http://localhost:8501_
+
+**7. Configure Environment Variables**
+
+
+LAKERA_API_KEY=your_lakera_api_key
+
+LAKERA_PROJECT_ID=your_project_id
+
+GEMINI_API_KEY=your_gemini_api_key
 
 **8. Application Flow (for validation/demo)**
 
