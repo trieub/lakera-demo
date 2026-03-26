@@ -38,6 +38,7 @@ Go to Lakera platform:
 Sign up / log in
 Create a new Project
 Retrieve:
+
 LAKERA_API_KEY
 
 LAKERA_PROJECT_ID
@@ -71,6 +72,7 @@ Open in browser:
 http://localhost:8501
 
 **8. Application Flow (for validation/demo)**
+
 User enters a prompt in the UI
 App sends request → Lakera API
 Detects:
