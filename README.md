@@ -4,11 +4,11 @@
 
 Ensure the following are installed:
 
-Python ≥ 3.10
+- Python ≥ 3.10
 
-Git
+- Git
 
-uv
+- uv
 
 Install uv
 
@@ -52,19 +52,19 @@ Create a new Project
 
 Retrieve:
 
-LAKERA_API_KEY
+_LAKERA_API_KEY_
 
-LAKERA_PROJECT_ID
+_LAKERA_PROJECT_ID_
 
 Why this matters:
 
 Lakera uses a project-based model to:
 
-isolate environments (dev / test / prod)
+- isolate environments (dev / test / prod)
 
-track requests
+- track requests
 
-enforce security policies
+- enforce security policies
 
 **6. Run the Streamlit App**
 
@@ -81,11 +81,11 @@ _http://localhost:8501_
 **7. Configure Environment Variables**
 
 
-LAKERA_API_KEY=your_lakera_api_key
+_LAKERA_API_KEY=your_lakera_api_key_
 
-LAKERA_PROJECT_ID=your_project_id
+_LAKERA_PROJECT_ID=your_project_id_
 
-GEMINI_API_KEY=your_gemini_api_key
+_GEMINI_API_KEY=your_gemini_api_key_
 
 **8. Application Flow (for validation/demo)**
 
@@ -95,11 +95,11 @@ App sends request → Lakera API
 
 Detects:
 
-Prompt injection
+- Prompt injection
 
-Jailbreak attempts
+- Jailbreak attempts
 
-Sensitive data risks
+- Sensitive data risks
 
 If safe → forwarded to LLM
 
